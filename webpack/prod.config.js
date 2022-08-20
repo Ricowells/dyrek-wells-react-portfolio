@@ -67,6 +67,7 @@ module.exports = webpackMerge(webpackCommon, {
   },
 
   plugins: [
+    new CaseSensitivePathsPlugin(),
     new HtmlWebpackPlugin({
       inject: true,
       template: path.resolve(__dirname, "../static/index.html"),
