@@ -2,7 +2,7 @@
   "name": "dyrek-wells-react-portfolio",
   "version": "1.0.0",
   "engines": {
-    "node": "18.x"
+    "node": "16.x"
   },
   "description": "Personal portfolio app built in React",
   "scripts": {
